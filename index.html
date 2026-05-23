@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise - Smart Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- ടാഗ്‌ലൈൻ മാറ്റി പുതിയ ഹെഡിംഗ് നൽകി -->
+  <div class="header-section">
+    <h1>SpendWise - Smart Expense Tracker</h1>
+  </div>
+
+  <div class="summary">
+    <div class="card daily">
+      <h2>Daily Expense</h2>
+      <p id="dailyExpense">₹0</p>
+    </div>
+
+    <div class="card monthly">
+      <h2>Monthly Expense</h2>
+      <p id="monthlyExpense">₹0</p>
+    </div>
+  </div>
+
+  <div class="form-section">
+    <input type="date" id="date">
+
+    <select id="type">
+      <option value="">Select Expense Type</option>
+      <option>Food & Drinks</option>
+      <option>Groceries</option>
+      <option>Travel & Transport</option>
+      <option>Rent & Accommodation</option>
+      <option>Bills & Utilities</option>
+      <option>Shopping & Clothes</option>
+      <option>Entertainment & Movies</option>
+      <option>Medical & Healthcare</option>
+      <option>Education & Books</option>
+      <option>Investments & Savings</option>
+      <option>Others</option>
+    </select>
+
+    <input type="number" id="amount" placeholder="Enter Amount">
+
+    <button onclick="addExpense()" id="submitBtn">Add Expense</button>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>SI No</th>
+          <th>Date</th>
+          <th>Day</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="expenseTable">
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
