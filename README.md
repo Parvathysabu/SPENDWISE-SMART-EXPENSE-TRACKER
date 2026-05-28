@@ -1,6 +1,6 @@
-# SPENDWISE-SMART-EXPENSE-TRACKER
+ SPENDWISE-SMART-EXPENSE-TRACKER
 
-\# SpendWise - Smart Expense Tracker
+ SpendWise - Smart Expense Tracker
 
 
 
@@ -8,45 +8,45 @@ SpendWise is a simple frontend-based expense tracker web application that helps 
 
 
 
-\## Features
+ Features
 
-\- Add expenses with title, amount, category, and date
+- Add expenses with title, amount, category, and date
 
-\- View all expenses in a clean dashboard
+- View all expenses in a clean dashboard
 
-\- Automatic total expense calculation
+- Automatic total expense calculation
 
-\- Simple and responsive UI
-
-
-
-\## Technologies Used
-
-\- HTML
-
-\- CSS
-
-\- JavaScript
+- Simple and responsive UI
 
 
 
-\## Project Purpose
+ Technologies Used
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+
+
+ Project Purpose
 
 This project is developed to practice frontend development skills including DOM manipulation, event handling, and responsive UI design.
 
 
 
-\## How to Run
+ How to Run
 
-1\. Download or clone the repository
+1. Download or clone the repository
 
-2\. Open index.html in any browser
+2. Open index.html in any browser
 
-3\. Start adding expenses
+3. Start adding expenses
 
 
 
-\## Author
+ Author
 
 Parvathy Sabu
 
